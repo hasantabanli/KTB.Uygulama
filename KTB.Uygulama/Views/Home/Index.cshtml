@@ -1,0 +1,15 @@
+﻿@model List<KTB.Uygulama.Entities.Personel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form method="post">
+    <input type="text" name="Ad" value="" />
+    <input type="text" name="Soyad" value="" />
+    <button asp-controller="Home" asp-action="SavePersonel">Ekle</button>
+</form>
+
+@foreach (var item in Model)
+{
+<div>@item.Ad @item.Soyad</div>
+}

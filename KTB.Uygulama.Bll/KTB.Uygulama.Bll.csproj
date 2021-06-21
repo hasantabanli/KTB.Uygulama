@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KTB.Uygulama.Dal\KTB.Uygulama.Dal.csproj" />
+    <ProjectReference Include="..\KTB.Uygulama.Entities\KTB.Uygulama.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
